@@ -37,7 +37,7 @@ This project demonstrates core Android development skills, including local datab
 
 1.  Clone the repository:
     ```sh
-    git clone https://github.com/your-username/kutubxona.git
+    git@github.com:ZeboDalimova/Library-Management-System-Android.git
     ```
 2.  Open the project in **Android Studio (Hedgehog or newer)**.
 3.  Sync the project with Gradle files.
