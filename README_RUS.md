@@ -37,7 +37,7 @@
 
 1.  Клонируйте репозиторий:
     ```sh
-    git clone https://github.com/vash-login/kutubxona.git
+    git clone git@github.com:ZeboDalimova/Library-Management-System-Android.git
     ```
 2.  Откройте проект в **Android Studio (версия Hedgehog или новее)**.
 3.  Выполните синхронизацию проекта с файлами Gradle (Sync Project with Gradle Files).
