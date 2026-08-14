@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Мой профиль"
+        android:icon="@drawable/user_icon"
+        android:id="@+id/profil" />
+
+    <item android:title="Помощь"
+        android:icon="@drawable/help"
+        android:id="@+id/pomosh"/>
+
+    <item android:title="Правила пользования"
+        android:icon="@drawable/baseline_rule_folder_24"
+        android:id="@+id/pravila"/>
+
+    <item android:title="О приложении"
+        android:icon="@drawable/baseline_info_24"
+        android:id="@+id/pragrammahaqida"/>
+
+    <item android:title="Выход"
+        android:icon="@drawable/logout"
+        android:id="@+id/vixod"/>
+
+</menu>

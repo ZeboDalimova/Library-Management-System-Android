@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingTop="30dp"
+android:paddingLeft="20dp"
+android:paddingRight="20dp"
+android:orientation="vertical"
+tools:context=".Fragment_Kategoriya">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="категории"
+    android:textSize="18dp"
+    android:layout_marginBottom="10dp"/>
+
+<ListView
+    android:id="@+id/lvkategoriya"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:dividerHeight="10dp"
+    android:background="@color/white"
+    android:divider="@android:color/white"
+    android:layout_marginTop="10dp"
+    android:paddingBottom="20dp"/>
+
+
+</LinearLayout>

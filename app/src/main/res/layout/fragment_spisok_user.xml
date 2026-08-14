@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    android:orientation="vertical"
+    tools:context=".FragmentSpisokUser">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/grey"
+        android:text="СПИСОК ВСЕХ ПОЛЬЗОВАТЕЛЕЙ"/>
+
+    <ListView
+        android:paddingTop="20dp"
+        android:layout_gravity="center"
+        android:id="@+id/listUsersAdmin"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="10dp"
+        android:background="@color/white"
+        android:divider="@android:color/white"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

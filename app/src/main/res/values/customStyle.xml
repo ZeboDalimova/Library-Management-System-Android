@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="editTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:drawablePadding">10dp</item>
+        <item name="android:paddingLeft">20dp</item>
+<!--        <item name="android:textSize">18dp</item>-->
+    </style>
+
+
+
+    <style name="Theme.App" parent="Theme.MaterialComponents">
+        <item name="bottomNavigationStyle">@style/Widget.MaterialComponents.BottomNavigationView.Colored</item>
+        <item name="android:colorPrimary">#9C27B0</item>
+        <item name="rippleColor">@null</item>
+        <item name="colorOnPrimary">#B6B6B6</item>
+    </style>
+</resources>

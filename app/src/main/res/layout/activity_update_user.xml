@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ActivityUpdate_User">
+
+        <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarActivityUpdateUser"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/fon3"
+        android:elevation="4dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingLeft="20dp">
+
+            <ImageView
+                android:id="@+id/updateUserIconImage"
+                android:layout_width="110dp"
+                android:layout_height="110dp"
+                android:padding="17dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/person2"
+                android:background="@drawable/ikonka_stil"
+                android:layout_gravity="center"/>
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/updateUserIconList"
+                android:layout_margin="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                />
+
+            <EditText
+                android:id="@+id/updateUserNameEdt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"
+                android:hint="UserName"
+                android:textColorHint="@color/grey"
+                android:drawableLeft="@drawable/person2"
+                android:drawablePadding="10dp"
+                android:paddingLeft="15dp"
+                android:background="@drawable/edit_text"/>
+            <EditText
+                android:id="@+id/updateEmailEdt"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/grey"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="10dp"
+                android:hint="Email"
+                android:paddingLeft="15dp"
+                android:background="@drawable/edit_text"/>
+            <EditText
+                android:id="@+id/updatePhoneEdt"
+                android:layout_width="match_parent"
+                android:textColorHint="@color/grey"
+                android:textColor="@color/black"
+                android:drawableLeft="@drawable/baseline_phone_24"
+                android:drawablePadding="10dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:hint="Phone"
+                android:paddingLeft="15dp"
+                android:background="@drawable/edit_text"/>
+            <EditText
+                android:id="@+id/updatePasswordEdt"
+                android:layout_width="match_parent"
+                android:textColorHint="@color/grey"
+                android:drawableLeft="@drawable/password"
+                android:textColor="@color/black"
+                android:drawablePadding="10dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:hint="Password"
+                android:paddingLeft="15dp"
+                android:background="@drawable/edit_text"/>
+            <Button
+                android:id="@+id/updateBtn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:background="@drawable/edit_text"
+                android:text="Update"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+</LinearLayout>

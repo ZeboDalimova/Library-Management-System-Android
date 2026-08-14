@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Мой профиль"
+        android:icon="@drawable/user_icon"
+        android:id="@+id/profil" >
+    </item>
+
+    <item android:title="Помощь"
+        android:icon="@drawable/help"
+        android:id="@+id/pomosh"/>
+
+    <item android:title="Правила пользования"
+        android:icon="@drawable/baseline_rule_folder_24"
+        android:id="@+id/pravila"/>
+
+    <item android:title="О приложении"
+        android:icon="@drawable/baseline_info_24"
+        android:id="@+id/pragrammahaqida"/>
+
+    <item android:title="Добавить"
+        android:id="@+id/dobavitAdmin" >
+
+        <menu>
+            <item
+                android:id="@+id/add_new_book"
+                android:icon="@drawable/baseline_bookmark_add_24"
+                android:title="Добавить книгу" />
+            <item
+                android:id="@+id/add_new_category"
+                android:icon="@drawable/add_book"
+                android:title="Добавить категории" />
+            <item
+                android:id="@+id/add_new_design"
+                android:icon="@drawable/baseline_add_photo_alternate_24"
+                android:title="Добавить дизайн" />
+        </menu>
+    </item>
+
+    <item android:title="Изменить | Удалить"
+        android:id="@+id/izmenitAdmin" >
+
+        <menu>
+            <item
+                android:id="@+id/upload_book"
+                android:icon="@drawable/baseline_menu_book_24"
+                android:title="Список всех книг" />
+            <item
+                android:id="@+id/upload_category"
+                android:icon="@drawable/kategoriya_on"
+                android:title="Список всех категории" />
+            <item
+                android:id="@+id/upload_design"
+                android:icon="@drawable/baseline_add_reaction_24"
+                android:title="Cписок всех дизайнов" />
+            <item
+                android:id="@+id/upload_user_status"
+                android:icon="@drawable/baseline_person_add_alt_1_24"
+                android:title="Список всех пользователей" />
+        </menu>
+    </item>
+
+    <item android:title="Выход"
+        android:icon="@drawable/logout"
+        android:id="@+id/vixod"/>
+
+</menu>

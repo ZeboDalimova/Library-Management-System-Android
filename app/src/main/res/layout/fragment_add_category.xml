@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".FragmentAddCategory">
+
+
+    <EditText
+        android:id="@+id/editTextNameCategory"
+        android:layout_width="match_parent"
+        android:background="@drawable/edit_text"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        android:layout_height="50dp"
+        android:hint="Название категории"/>
+
+
+    <Button
+        android:id="@+id/btnSelectImageCat"
+        android:layout_width="250dp"
+        android:layout_gravity="top|center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="Select Image from Gallery" />
+
+    <ImageView
+        android:id="@+id/imageViewCategorySave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="top|center"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/btnSaveCategory"
+        android:layout_width="250dp"
+        android:layout_gravity="bottom|center"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="70dp"
+        android:text="Add Category" />
+
+</FrameLayout>
